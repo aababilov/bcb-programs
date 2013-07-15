@@ -1,0 +1,1 @@
+A small car moves on a road. Use arrow keys to move it.

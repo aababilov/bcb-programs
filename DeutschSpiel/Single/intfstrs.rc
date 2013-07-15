@@ -1,0 +1,15 @@
+#include "dconsts.h"
+STRINGTABLE
+{
+  CANNOT_CONNECT "Können mit \"%s\" nicht vereinigen"
+  NEW_GAME       "Knallt hier, um ein neues Spiel zu beginnen!"
+  IS_BUSY        " ist beschäftigt!"
+  LEAD_HINT      "Spielt aus!"
+  ADJ_NOT_EXIST  "Das Adjektiv \"%s\" existiert nicht!"
+  AGJ_EXISTS     "Richtig! Das Adjektiv \"%s\" existiert"
+  OPP_CORR       "Der Gegner hat das Kärtchen richtig gelegt"
+  OPP_INCORR     "Der Gegner hat das Kärtchen falsh gelegt"
+  YOU_WON        "Ihr gewinnt!"
+  STUDY_GERMAN   "Lehrnt Deutsch!"
+  CARDS          " Kärtchen"
+}

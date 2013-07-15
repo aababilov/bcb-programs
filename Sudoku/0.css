@@ -1,0 +1,75 @@
+	@page { size: 21cm 29.7cm; margin: 2cm }
+	P { margin-bottom: 0.21cm }
+	A:link { color: #000080; text-decoration: underline }
+	A:visited { color: #800000; text-decoration: underline
+	}
+	
+	.dominion:before {
+        	content: counter(dominion) ". Dominion ";
+		counter-increment: dominion;
+		counter-reset: subdominion superregnum regnum
+	}
+	.dominion {text-indent: 0.00cm; font-style: normal }
+	.superdominion {text-indent: 0.00cm; font-style: bold }
+	.subdominion {text-indent: 0.00cm; font-style: italic }
+
+	.regnum:before {
+        	content: counter(regnum) ". Regnum ";
+		counter-increment: regnum;
+		counter-reset: subregnum supertypus typus
+	}
+	.regnum {text-indent: 0.25cm; font-style: normal }
+	.superregnum {text-indent: 0.25cm; font-style: bold }
+	.subregnum {text-indent: 0.25cm; font-style: italic }
+
+	.typus:before {
+        	content: counter(typus) ". Typus ";
+		counter-increment: typus;
+		counter-reset: subtypus superclassis classis
+	}
+	.typus {text-indent: 0.50cm; font-style: normal }
+	.subtypus:before {
+        	content: counter(subtypus) ". Subtypus ";
+		counter-increment: subtypus;
+		counter-reset: superclassis classis;
+	}
+#	.subtypus:after {
+#	        content: " class " counter(classis);
+#		counter-increment: classis;
+#	}
+#	.dominion:after {
+#	        content: " class " counter(classis);
+#	}
+#	.typus:after {
+#	        content: " class " counter(classis);
+#	}
+#
+	.supertypus {text-indent: 0.50cm; font-style: bold }
+	.subtypus {text-indent: 0.50cm; font-style: italic }
+
+	.classis:before {
+        	content: counter(classis) ". Classis ";
+		counter-increment: classis;
+		counter-reset: subclassis superordo ordo;
+	}
+	.classis {text-indent: 0.75cm; font-style: normal }
+	.superclassis {text-indent: 0.75cm; font-style: bold }
+	.subclassis {text-indent: 0.75cm; font-style: italic }
+
+	.ordo:before {
+        	content: counter(ordo) ". Ordo ";
+		counter-increment: ordo;
+		counter-reset: subordo superfamilia familia
+	}
+
+	.ordo {text-indent: 1.00cm; font-style: normal }
+	.superordo {text-indent: 1.00cm; font-style: bold }
+	.subordo {text-indent: 1.00cm; font-style: italic }
+
+	.familia {text-indent: 1.25cm; font-style: normal }
+	.superfamilia {text-indent: 1.25cm; font-style: bold }
+	.subfamilia {text-indent: 1.25cm; font-style: italic }
+	div {
+	        margin:0cm; margin-bottom:.0001pt; text-text-align:justify; 
+		text-indent:35.4pt; line-height:150%; font-size:14.0pt; 
+	}
